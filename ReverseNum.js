@@ -1,4 +1,4 @@
-let PalindromeNumber = (x) =>{
+let ReverseNum = (x) =>{
     let reverse = 0;
     while( x > 0){
         reverse = reverse * 10 + (x % 10)
@@ -7,4 +7,4 @@ let PalindromeNumber = (x) =>{
     return reverse
 }
 let x  =  120;
-console.log(PalindromeNumber(x))
+console.log(ReverseNum(x))
