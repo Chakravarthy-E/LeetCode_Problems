@@ -5,6 +5,7 @@ data = data.split("\n");
 function readLine() {
   idx++;
   return data[idx - 1].trim();
+  
 }
 //-------------------------------------------
 let uniqueCharacter = (str) => {
