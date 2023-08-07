@@ -47,6 +47,7 @@ const vowelStrings = (words, left, right) => {
   return count;
 };
 let words = ["are", "amy", "u"],
+
   left = 0,
   right = 2;
 console.log(vowelStrings(words, left, right));
