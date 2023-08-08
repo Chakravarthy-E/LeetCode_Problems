@@ -41,30 +41,27 @@ let mergeSort = (arr) => {
   let right = arr.slice(mid);
   return merge(mergeSort(left), mergeSort(right));
 };
-let merge = (left,right) => {
-        let sortedArray = []
-        let i = 0
-        let j = 0;
-    for(let k =0 ; k< left.length + right.length ;k++){
-        if( i >= left.length){
-            sortedArray[k] = right[j]
-            j++;
-        }else if(j >= right.length ){
-            sortedArray[k] = left[i]
-            i++
-        }
-        else if(left[i] <= right[j]){
-            sortedArray[k] = left[i]
-            i++
-        }
-        else{
-            sortedArray[k] = right[j]
-            j++
-        }
+let merge = (left, right) => {
+  let sortedArray = [];
+  let i = 0;
+  let j = 0;
+  for (let k = 0; k < left.length + right.length; k++) {
+    if (i >= left.length) {
+      sortedArray[k] = right[j];
+      j++;
+    } else if (j >= right.length) {
+      sortedArray[k] = left[i];
+      i++;
+    } else if (left[i] <= right[j]) {
+      sortedArray[k] = left[i];
+      i++;
+    } else {
+      sortedArray[k] = right[j];
+      j++;
     }
-    return sortedArray;
-
-}
+  }
+  return sortedArray;
+};
 let t = parseInt(readLine());
 let n = parseInt(readLine());
 let arr = [];
