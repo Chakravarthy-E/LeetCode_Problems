@@ -31,7 +31,6 @@ Since an empty str
 const validPalindrome = (s) => {
   s = s.toLowerCase().replace(/[^a-z0-9]/g, "");
   return s === s.split("").reverse().join("");
-  // return str.split(" ").join("").toLowerCase()
 };
-let s = "race a car";
+let s = "A man, a plan, a canal: Panama";
 console.log(validPalindrome(s));
