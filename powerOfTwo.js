@@ -39,7 +39,6 @@ const powerOfTwo = (n) => {
     x++;
   }
   return 2 ** x === n;
-
 };
 let n = 4;
 console.log(powerOfTwo(n));
