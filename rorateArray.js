@@ -21,6 +21,7 @@ let nums = [-1, -100, 3, 99],
   k = 2;
 console.log(rorateArray(nums, k));
 
+
 /**
  * const n = nums.length;
   k = k % n; // Handle cases where k is larger than n
