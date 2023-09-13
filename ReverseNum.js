@@ -6,5 +6,5 @@ let ReverseNum = (x) =>{
     }
     return reverse
 }
-let x  =  120;
+let x  = -123
 console.log(ReverseNum(x))

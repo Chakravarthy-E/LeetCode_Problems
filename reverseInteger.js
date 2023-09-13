@@ -30,7 +30,7 @@ const reverseInteger = (x) => {
   let revNum = parseInt(rev, 10) * (isNegative ? -1 : 1);
   return revNum;
 };
-let x = -120;
+let x = -123;
 console.log(reverseInteger(x));
 
 
