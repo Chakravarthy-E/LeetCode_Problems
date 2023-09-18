@@ -38,9 +38,4 @@ var groupAnagrams = (strs) => {
 const str = ["eat", "tea", "tan", "ate", "nat", "bat"];
 console.log(groupAnagrams(str));
 
-const person = {
-  name: "Chakri",
-  age: "23",
-};
 
-console.log(Array.from(person));
